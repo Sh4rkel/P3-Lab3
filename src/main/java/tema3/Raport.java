@@ -1,4 +1,7 @@
 package tema3;
 
-public class Raport {
+public interface Raport {
+    String generareTitlu();
+    String generareContinut();
+    String generareIncheiere();
 }
