@@ -20,7 +20,7 @@ public class RaportSedinta implements Raport {
 
     @Override
     public String generareTitlu() {
-        return "Motivul ședinței: " + motivSedinta + "\nData: " + data + "\n";
+        return "Motivul sedinsei: " + motivSedinta + "\nData: " + data + "\n";
     }
 
     @Override
@@ -29,7 +29,7 @@ public class RaportSedinta implements Raport {
         for (String subiect : subiecteDiscutate) {
             continut.append("- ").append(subiect).append("\n");
         }
-        continut.append("\nMinuta ședinței:\n");
+        continut.append("\nMinuta sedinsei:\n");
         for (String paragraf : minuta) {
             continut.append(paragraf).append("\n");
         }
@@ -38,7 +38,7 @@ public class RaportSedinta implements Raport {
 
     @Override
     public String generareIncheiere() {
-        return "Persoane responsabile pentru întocmirea raportului:\n" + String.join(", ", persoaneResponsabile);
+        return "Persoane responsabile pentru intocmirea raportului:\n" + String.join(", ", persoaneResponsabile);
     }
 
     public Date getData() {
