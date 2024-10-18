@@ -37,7 +37,7 @@ public class Main {
         // Tablou de rapoarte
         Raport[] rapoarte = {articol1, articol2, raport1, raport2};
 
-        // Afișarea conținutului fiecărui raport
+        // Afisarea continutului fiecarui raport
         for (Raport raport : rapoarte) {
             System.out.println(raport.generareTitlu());
             System.out.println(raport.generareContinut());
