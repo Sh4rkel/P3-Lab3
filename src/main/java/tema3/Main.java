@@ -2,8 +2,8 @@ package tema3;
 
 import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
-
+import java.util.HashMap;
+import java.util.Map;
 /**
  * Clasa Main demonstreaza crearea si afișarea unui tablou de rapoarte.
  */
@@ -53,6 +53,25 @@ public class Main {
             }
         }
         return count;
+    }
+    public static Date dataCuCeleMaiMulteSedinte(Raport[] rapoarte) {
+        Map<Date, Integer> sedintePeData = new HashMap<>();
+        for (Raport raport : rapoarte) {
+            if (raport instanceof RaportSedinta) {
+                Date data = ((RaportSedinta) raport).getData();
+                sedintePeData.put(data, sedintePeData.getOrDefault(data, 0) + 1);
+            }
+        }
+
+        Date dataMax = null;
+        int maxSedinte = 0;
+        for (Map.Entry<Date, Integer> entry : sedintePeData.entrySet()) {
+            if (entry.getValue() > maxSedinte) {
+                maxSedinte = entry.getValue();
+                dataMax = entry.getKey();
+            }
+        }
+        return dataMax;
     }
 }
 
