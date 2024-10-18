@@ -5,11 +5,11 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Clasa Main demonstrează crearea și afișarea unui tablou de rapoarte.
+ * Clasa Main demonstreaza crearea si afișarea unui tablou de rapoarte.
  */
 public class Main {
     public static void main(String[] args) {
-        // Creare articole științifice
+        // Creare articole știintifice
         ArticolStiintific articol1 = new ArticolStiintific("Inteligența Artificială",
                 Arrays.asList("Autor 1", "Autor 2"),
                 Arrays.asList(new Sectiune("Introducere", "Conținut introducere"),
@@ -21,7 +21,7 @@ public class Main {
                 Arrays.asList(new Sectiune("Prezentare generală", "Conținut prezentare generală")),
                 Arrays.asList("Referință 3"));
 
-        // Creare rapoarte de ședință
+        // Creare rapoarte de ședinta
         RaportSedinta raport1 = new RaportSedinta("Discutarea obiectivelor trimestriale",
                 new Date(),
                 Arrays.asList("Subiect 1", "Subiect 2"),
