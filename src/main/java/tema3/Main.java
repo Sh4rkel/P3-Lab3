@@ -45,5 +45,14 @@ public class Main {
             System.out.println("------------------------------------------------------");
         }
     }
+    public static int numarArticole(Raport[] rapoarte) {
+        int count = 0;
+        for (Raport raport : rapoarte) {
+            if (raport instanceof ArticolStiintific) {
+                count++;
+            }
+        }
+        return count;
+    }
 }
 
