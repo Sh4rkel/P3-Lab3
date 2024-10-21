@@ -2,13 +2,13 @@ package tema3;
 
 import java.util.List;
 
-public class ArticolStiintific implements Raport {
+public class ArticolStintific implements Raport {
     private String titlu;
     private List<String> autori;
     private List<Sectiune> sectiuni;
     private List<String> bibliografie;
 
-    public ArticolStiintific(String titlu, List<String> autori, List<Sectiune> sectiuni, List<String> bibliografie) {
+    public ArticolStintific(String titlu, List<String> autori, List<Sectiune> sectiuni, List<String> bibliografie) {
         this.titlu = titlu;
         this.autori = autori;
         this.sectiuni = sectiuni;

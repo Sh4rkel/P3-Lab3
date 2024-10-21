@@ -10,7 +10,7 @@ public class Tests {
     @Test
     public void testNumarArticole() {
         Raport[] rapoarte = {
-                new ArticolStiintific("Articol 1", Arrays.asList("Autor 1"), Arrays.asList(new Sectiune("Secțiune 1", "Conținut 1")), Arrays.asList("Ref 1")),
+                new ArticolStintific("Articol 1", Arrays.asList("Autor 1"), Arrays.asList(new Sectiune("Secțiune 1", "Conținut 1")), Arrays.asList("Ref 1")),
                 new RaportSedinta("Ședința 1", new Date(), Arrays.asList("Subiect 1"), Arrays.asList("Minuta 1"), Arrays.asList("Resp 1"))
         };
         assertEquals(1, Main.numarArticole(rapoarte));

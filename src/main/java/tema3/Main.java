@@ -10,13 +10,13 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         // Creare articole știintifice
-        ArticolStiintific articol1 = new ArticolStiintific("Inteligența Artificială",
+        ArticolStintific articol1 = new ArticolStintific("Inteligența Artificială",
                 Arrays.asList("Autor 1", "Autor 2"),
                 Arrays.asList(new Sectiune("Introducere", "Conținut introducere"),
                         new Sectiune("Metodologie", "Conținut metodologie")),
                 Arrays.asList("Referință 1", "Referință 2"));
 
-        ArticolStiintific articol2 = new ArticolStiintific("Calcul cuantic",
+        ArticolStintific articol2 = new ArticolStintific("Calcul cuantic",
                 Arrays.asList("Autor 3"),
                 Arrays.asList(new Sectiune("Prezentare generală", "Conținut prezentare generală")),
                 Arrays.asList("Referință 3"));
@@ -48,7 +48,7 @@ public class Main {
     public static int numarArticole(Raport[] rapoarte) {
         int count = 0;
         for (Raport raport : rapoarte) {
-            if (raport instanceof ArticolStiintific) {
+            if (raport instanceof ArticolStintific) {
                 count++;
             }
         }
