@@ -5,6 +5,11 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.Date;
 
+/**
+ * @author Daniel Filip
+ * Testele efectuate pentru functiile din Main-ul package-ul tema3
+ */
+
 public class Tests {
 
     @Test
