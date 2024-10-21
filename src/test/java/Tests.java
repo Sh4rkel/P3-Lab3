@@ -21,9 +21,9 @@ public class Tests {
         Date data1 = new Date();
         Date data2 = new Date();
         Raport[] rapoarte = {
-                new RaportSedinta("Ședința 1", data1, Arrays.asList("Subiect 1"), Arrays.asList("Minuta 1"), Arrays.asList("Resp 1")),
-                new RaportSedinta("Ședința 2", data1, Arrays.asList("Subiect 2"), Arrays.asList("Minuta 2"), Arrays.asList("Resp 2")),
-                new RaportSedinta("Ședința 3", data2, Arrays.asList("Subiect 3"), Arrays.asList("Minuta 3"), Arrays.asList("Resp 3"))
+                new RaportSedinta("Sedinta 1", data1, Arrays.asList("Subiect 1"), Arrays.asList("Minuta 1"), Arrays.asList("Resp 1")),
+                new RaportSedinta("Sedinta 2", data1, Arrays.asList("Subiect 2"), Arrays.asList("Minuta 2"), Arrays.asList("Resp 2")),
+                new RaportSedinta("Sedinta 3", data2, Arrays.asList("Subiect 3"), Arrays.asList("Minuta 3"), Arrays.asList("Resp 3"))
         };
         assertEquals(data1, Main.dataCuCeleMaiMulteSedinte(rapoarte));
     }
