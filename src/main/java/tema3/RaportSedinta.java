@@ -3,6 +3,9 @@ package tema3;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author Daniel Filip
+ */
 public class RaportSedinta implements Raport {
     private String motivSedinta;
     private Date data;
