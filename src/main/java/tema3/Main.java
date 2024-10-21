@@ -5,16 +5,17 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 /**
+ * @author Daniel Filip
  * Clasa Main demonstreaza crearea si afișarea unui tablou de rapoarte.
  */
 public class Main {
     public static void main(String[] args) {
         // Creare articole știintifice
-        ArticolStintific articol1 = new ArticolStintific("Inteligența Artificială",
+        ArticolStintific articol1 = new ArticolStintific("Inteligenta Artificiala",
                 Arrays.asList("Autor 1", "Autor 2"),
-                Arrays.asList(new Sectiune("Introducere", "Conținut introducere"),
-                        new Sectiune("Metodologie", "Conținut metodologie")),
-                Arrays.asList("Referință 1", "Referință 2"));
+                Arrays.asList(new Sectiune("Introducere", "Continut introducere"),
+                        new Sectiune("Metodologie", "Continut metodologie")),
+                Arrays.asList("Referinta 1", "Referinta 2"));
 
         ArticolStintific articol2 = new ArticolStintific("Calcul cuantic",
                 Arrays.asList("Autor 3"),
