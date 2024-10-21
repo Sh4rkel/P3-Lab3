@@ -10,6 +10,14 @@ public class RaportSedinta implements Raport {
     private List<String> minuta;
     private List<String> persoaneResponsabile;
 
+    /**
+     *
+     * @param motivSedinta motivul sedintei
+     * @param data data sedintei
+     * @param subiecteDiscutate subiectele discutate in timpul sedintei
+     * @param minuta consimtirea deciziilor luate in timpul sedintei
+     * @param persoaneResponsabile persoanele responsabile
+     */
     public RaportSedinta(String motivSedinta, Date data, List<String> subiecteDiscutate, List<String> minuta, List<String> persoaneResponsabile) {
         this.motivSedinta = motivSedinta;
         this.data = data;
@@ -29,7 +37,7 @@ public class RaportSedinta implements Raport {
         for (String subiect : subiecteDiscutate) {
             continut.append("- ").append(subiect).append("\n");
         }
-        continut.append("\nMinuta sedinsei:\n");
+        continut.append("\nMinuta sedintei:\n");
         for (String paragraf : minuta) {
             continut.append(paragraf).append("\n");
         }

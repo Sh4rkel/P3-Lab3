@@ -35,7 +35,7 @@ public class ArticolStintific implements Raport {
     public String generareContinut() {
         StringBuilder continut = new StringBuilder();
         for (Sectiune sectiune : sectiuni) {
-            continut.append("Secțiune: ").append(sectiune.getTitlu()).append("\n")
+            continut.append("Sectiune: ").append(sectiune.getTitlu()).append("\n")
                     .append(sectiune.getContinut()).append("\n");
         }
         return continut.toString();
