@@ -18,8 +18,8 @@ public class Main {
 
         ArticolStintific articol2 = new ArticolStintific("Calcul cuantic",
                 Arrays.asList("Autor 3"),
-                Arrays.asList(new Sectiune("Prezentare generală", "Conținut prezentare generală")),
-                Arrays.asList("Referință 3"));
+                Arrays.asList(new Sectiune("Prezentare generala", "Continut prezentare generala")),
+                Arrays.asList("Referinta 3"));
 
         // Creare rapoarte de ședinta
         RaportSedinta raport1 = new RaportSedinta("Discutarea obiectivelor trimestriale",
