@@ -6,6 +6,7 @@ import java.util.List;
  * @author Daniel Filip
  * clasa ArticoluStintific care implementeaza interfata Raport
  */
+
 public class ArticolStintific implements Raport {
     private String titlu;
     private List<String> autori;
@@ -19,6 +20,7 @@ public class ArticolStintific implements Raport {
      * @param sectiuni
      * @param bibliografie
      */
+    
     public ArticolStintific(String titlu, List<String> autori, List<Sectiune> sectiuni, List<String> bibliografie) {
         this.titlu = titlu;
         this.autori = autori;
