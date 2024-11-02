@@ -14,6 +14,7 @@ public class Sectiune {
      * @param titlu titlul articolului
      * @param continut continutul articolului
      */
+    
     public Sectiune(String titlu, String continut) {
         this.titlu = titlu;
         this.continut = continut;
