@@ -4,10 +4,12 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
 /**
  * @author Daniel Filip
  * Clasa Main demonstreaza crearea si afișarea unui tablou de rapoarte.
  */
+
 public class Main {
     public static void main(String[] args) {
         // Creare articole știintifice
