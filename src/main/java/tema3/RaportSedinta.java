@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * @author Daniel Filip
  */
+
 public class RaportSedinta implements Raport {
     private String motivSedinta;
     private Date data;
@@ -21,6 +22,7 @@ public class RaportSedinta implements Raport {
      * @param minuta consimtirea deciziilor luate in timpul sedintei
      * @param persoaneResponsabile persoanele responsabile
      */
+    
     public RaportSedinta(String motivSedinta, Date data, List<String> subiecteDiscutate, List<String> minuta, List<String> persoaneResponsabile) {
         this.motivSedinta = motivSedinta;
         this.data = data;
